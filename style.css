@@ -1,0 +1,106 @@
+body {
+    background-color: lavender;
+    height: 100vh;/*vh to consider whole viewport i.e. whole height of webpage*/
+    display: grid;
+    place-items: center;/*to center the calc*/
+}
+
+.calculator {
+    background-color: black;
+    font-family: "Outfit", sans-serif;
+    height: 530px;
+    width: 300px;
+    align-items: center;
+    border-radius: 12px;
+}
+
+#display {
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 125px;
+    width: 282px;
+    padding-right: 18px;
+    border-bottom: 2px solid #a6a6a6; /*had to add solid*/
+    border-radius: 15px 15px 0 0;
+}
+#display span {
+    transform: translateX(-10px);  /* Moves text left */
+}
+/* display height 125px
+   button rectangle height 375px */
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+.button-rectangle {
+    font-size: 25px;
+    flex-grow: 1;
+    display: flex;
+    width: 100%;
+    height: 75.6%;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5,1fr);
+    width: 100%;
+    height: 100%;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.circle {
+    background-color: #312f2f;
+    color: white;
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-circle {
+    background-color: #a6a6a6;
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-s-circle {
+    background-color: #ffa234;
+    color: white;
+    font-size: 30px;
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle-button {
+    background-color: #312f2f;
+    color: white;
+    display: flex;
+    grid-column: span 2;
+    width: 100%;
+    height: 58px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
