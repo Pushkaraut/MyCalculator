@@ -8,9 +8,9 @@ A simple and interactive Calculator built using HTML, CSS, and JavaScript. It pe
 ✔️ Smooth UI with interactive buttons
 
 ## 🛠️ Technologies Used
-HTML5 – Structure of the calculator
-CSS3 – Styling and responsive design
-JavaScript – Handles the calculations and user interactions
+- HTML5 – Structure of the calculator
+- CSS3 – Styling and responsive design
+- JavaScript – Handles the calculations and user interactions
 
 ## 💡 Future Enhancements
 🚀 Add a day/night toggle for better UI
