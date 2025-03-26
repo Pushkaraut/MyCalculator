@@ -2,7 +2,7 @@
 A simple and interactive Calculator built using HTML, CSS, and JavaScript. It performs basic arithmetic operations with a user-friendly interface.
 
 ## 🔥 Features
-✔️ Supports basic arithmetic: Addition, Subtraction, Multiplication, Division  
+✔️ Supports basic arithmetic: **Addition, Subtraction, Multiplication, Division**  
 ✔️ Clear button to reset calculations  
 ✔️ Responsive design for mobile and desktop  
 ✔️ Smooth UI with interactive buttons  
